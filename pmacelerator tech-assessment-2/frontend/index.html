@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Weather App</h1>
+    <input type="text" id="locationInput" placeholder="Enter city or ZIP" />
+    <button onclick="getWeather()">Get Weather</button>
+    <button onclick="getWeatherByLocation()">Use My Location</button>
+    <button onclick="viewStoredRecords()">View Stored Records</button>
+
+    <div id="weatherResult"></div>
+    <div id="forecastResult"></div>
+
+    <!-- New section to display DB records -->
+    <div id="storedRecords" style="margin-top:40px;"></div>
+
+    <footer>
+        <p>Developed by <strong>Shiva Tsavatapalli</strong></p>
+        <button onclick="showInfo()">Info</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
