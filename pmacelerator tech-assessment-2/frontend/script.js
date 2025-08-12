@@ -1,4 +1,4 @@
-const apiKey = "84c2ca532842bd3306233af3caf59d63"; // Replace with your OpenWeatherMap API Key
+const apiKey = "PLACE_API_KEY"; // Replace with your OpenWeatherMap API Key
 
 
 // Replace these with your actual icon URLs (full URLs or relative paths)
@@ -132,3 +132,4 @@ function viewStoredRecords() {
 function showInfo() {
     alert("PMA Weather App - AI Engineer Intern Assessment");
 }
+
